@@ -71,7 +71,7 @@ Make sure the BursaPay Django dev server is running on port 8000 before starting
 
 ```bash
 # Set environment variables
-export BURSAPAY_BASE_URL=http://localhost:8000/api/v1
+export BURSAPAY_BASE_URL=https://api.bursapay.com/api/v1
 export BURSAPAY_SECRET_KEY=sk_test_your_key_here
 
 # Run the server
